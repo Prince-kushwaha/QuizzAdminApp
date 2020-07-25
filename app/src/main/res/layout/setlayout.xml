@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/number"
+        android:background="@drawable/setdrawable"
+        android:backgroundTint="@android:color/holo_green_light"
+
+        android:gravity="center_horizontal"
+        android:padding="1dp"
+        android:text="2"
+        android:textAlignment="center"
+
+        android:textSize="25dp" />
+
+</LinearLayout>

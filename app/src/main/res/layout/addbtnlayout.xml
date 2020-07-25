@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageview"
+        android:src="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        />
+<TextView
+
+    android:textStyle="bold|italic"
+    android:layout_marginTop="20dp"
+    android:textSize="20dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="Tag to seleced the photo"
+    
+    />
+    <EditText
+        android:hint="Category Name "
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/categoryname"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/categoryname"
+
+/>
+    <Button
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="ADD"
+        android:id="@+id/addbtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn"
+/>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".addquestion">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:layout_height="50dp"
+
+        android:background="@color/colorAccent"
+        />
+
+
+    <EditText
+        android:background="@drawable/emaildrawable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+android:hint="Enter question"
+        android:padding="12dp"
+        android:text=""
+        android:id="@+id/question_name"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/optionA"
+        android:hint="Enter optionA"
+        android:text=""
+        android:background="@drawable/emaildrawable"
+        android:padding="12dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/optionB"
+
+        android:textSize="20dp"
+        android:background="@drawable/emaildrawable"
+        android:padding="12dp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter optionC"
+        />
+
+
+    <EditText
+        android:id="@+id/optionC"
+        android:background="@drawable/emaildrawable"
+        android:padding="12dp"
+        android:hint="Enter optionC"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:background="@drawable/emaildrawable"
+        android:layout_marginTop="30dp"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:hint="Enter optionD"
+        android:id="@+id/optionD"
+
+        />
+    <EditText
+        android:background="@drawable/emaildrawable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/answer"
+        android:padding="12dp"
+        android:hint="Enter correctoption"
+        android:layout_marginTop="30dp"
+        />
+<Button
+    android:layout_marginTop="50dp"
+    android:id="@+id/Uplaod_btn"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:background="@drawable/emaildrawable"
+    android:text="Uplaod"
+    android:layout_gravity="center_horizontal"
+/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
